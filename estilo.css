@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbarjv{
+    background-color: yellowgreen;
+    padding: 7px 10px;
+    width: 95%;
+    height: 130px;
+    flex: content;
+    margin: 10px auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+}
+
+.navbarjv > a{
+    color: white;
+    padding: 10px;
+}
+
+
+.navbarjv > ul{
+    list-style: none;
+}
+
+.menu{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+    color: white;
+    line-height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    float: right;
+}
+
+.navbarjv > ul > li > a:hover{
+    background-color: white;
+    color: yellowgreen;
+}
+
+
+a{
+    cursor: pointer;
+}
+
+
+.navbarjv > .icones:hover{
+    background-color: yellowgreen;
+}
+
+
+.tabela{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    height: auto;
+    background-color: greenyellow;
+}
+
+table{
+    width: 100%;
+    margin-top: 35px;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    text-align: center;
+}
+
+
+thead{
+    background-color: darkblue;
+    color: white;
+    
+}
+
+tbody{
+    background-color: cornflowerblue;
+}
+
+th{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td > a{
+    color: black;
+}
+
+td > a:hover{
+    color: white;
+}
+
+tr{
+    height: 50px;
+}
+
+
+
+#check{
+    display: none;
+}
+
+.btnjv{
+    display: none;
+}
+
+
+#check:checked ~ ul{
+    margin-left: 0;
+}
+
+footer{
+
+    background-color: yellowgreen;
+    padding: 7px 10px;
+    width: 95%;
+    height: auto;
+    flex: content;
+    margin: 10px auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    color: white;
+    font-size: 25px;
+}
+
+@media(max-width: 890px){
+    .menu{
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        margin-left: 10px;
+        padding-top: 40px;
+        float: right;
+    }
+}
+
+@media(max-width: 730px){
+    
+
+    .btnjv{
+        display: inline-block;
+        font-size: 80px;
+    }
+
+    
+    #check:not(:checked) ~ ul{
+        display: none;
+    }
+
+}
+
+
+
+.container{
+    width: 95%;
+}
+
+footer > .row > .col-md-3 > ul{
+    list-style: none;
+    font-size: 0.5em;
+    
+}
+
+footer > .row > .col-md-3 > ul > li > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.login{
+    width: auto;
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+    border: 3px ridge;
+    border-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.login > form > .col > input{
+    background-color: aquamarine;
+}
+
+input{
+    width: 90%;
+    border-radius: 10px;
+    height: 40px;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 890px){
+    .menu{
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        margin-left: 10px;
+        padding-top: 40px;
+        float: right;
+    }
+}
+
+@media(max-width: 730px){
+    .menu{
+        display: block;
+        background-color: greenyellow;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+        margin: -1px;
+        border-radius: 0%;
+        line-height: 100px;
+        color: black;
+        }
+
+    .btnjv{
+        display: block;
+        font-size: 60px;
+        float: right;
+        margin-top: 15px;
+        color: white;
+    }
+
+    
+    #check:not(:checked) ~ ul{
+        display: none;
+    }
+
+    
+
+}
+
+.imagem > a > img{
+    box-shadow: 7px 7px 4px rgb(175, 175, 175);
+}
+
